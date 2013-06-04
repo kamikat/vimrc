@@ -31,3 +31,9 @@
 [submodule "bundle/vim-syntax-tjs2"]
 	path = bundle/vim-syntax-tjs2
 	url = https://github.com/popkirby/vim-syntax-tjs2.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/hallison/vim-markdown.git
+[submodule "bundle/snipmate.vim"]
+	path = bundle/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
