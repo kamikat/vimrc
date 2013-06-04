@@ -14,7 +14,6 @@ set history=300
 set cino=:0,g0,l0
 set autoread
 " set textwidth=76
-" colorscheme xoria256 
 set bg=dark
 set wildmode=longest,list
 
@@ -49,18 +48,12 @@ map <C-l> <C-w>l
 au FileType python setlocal et
 au FileType html setlocal textwidth=0
 
-" Set XAML to be parsed as XML
-au BufRead,BufNewFile *.xaml    setfiletype xml
-
 " Support encoding detection for gbk and sjs
 set fencs=utf-8,ucs-bom,gbk,shift-jis
-
-" Variables for html indent plugin
-let g:html_indent_script1 = "inc" 
-let g:html_indent_style1 = "inc" 
 
 au FileType html,jade,markdown setlocal ts=2 sw=2
 
 au FileType markdown setlocal textwidth=76
 
 au FileType javascript,python setlocal fdm=marker
+
