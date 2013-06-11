@@ -19,6 +19,16 @@ set wildmode=longest,list
 
 " Use pathogen plugin to load Plugins
 runtime bundle/vim-pathogen/autoload/pathogen.vim
+
+" To disable a plugin, add it's bundle name to the following list
+let g:pathogen_disabled = []
+
+" for some reason the csscolor plugin is very slow when run on the terminal
+" but not in GVim, so disable it if no GUI is running
+if !has('gui_running')
+    call add(g:pathogen_disabled, 'vim-css-color')
+endif
+
 call pathogen#infect()
 
 filetype plugin on
