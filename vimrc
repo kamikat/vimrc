@@ -68,4 +68,5 @@ au FileType markdown setlocal textwidth=76
 au FileType javascript,python setlocal fdm=marker
 
 au FileType javascript map <F5> :JSHint<CR>
+au FileType less map <F5> :!lessc %<CR>
 
