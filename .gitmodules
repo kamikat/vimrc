@@ -46,3 +46,6 @@
 [submodule "bundle/herald.vim"]
 	path = bundle/herald.vim
 	url = https://github.com/taxilian/herald.vim.git
+[submodule "bundle/vim-opencl"]
+	path = bundle/vim-opencl
+	url = https://github.com/petRUShka/vim-opencl.git
