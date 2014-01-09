@@ -54,6 +54,16 @@ map <C-h> <C-w>h
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+" Auto strip useless space when file is saved
+au BufWritePre * :call <SID>StripTrailingWhitespace()
+
+fun! <SID>StripTrailingWhitespace()
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    call cursor(l,c)
+endfun
+
 " Force use 4 ws other than tab indent for python
 au FileType python setlocal et
 au FileType html setlocal textwidth=0
