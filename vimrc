@@ -80,3 +80,15 @@ au FileType javascript,python setlocal fdm=marker
 au FileType javascript map <F5> :JSHint<CR>
 au FileType less map <F5> :!lessc %<CR>
 
+" YouCompleteMe configuration
+let g:ycm_filetype_blacklist = {
+      \ 'tagbar' : 1,
+      \ 'qf' : 1,
+      \ 'notes' : 1,
+      \ 'markdown' : 1,
+      \ 'unite' : 1,
+      \ 'text' : 1,
+      \ 'vimwiki' : 1,
+      \}
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+
