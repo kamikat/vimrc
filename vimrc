@@ -89,6 +89,7 @@ let g:ycm_filetype_blacklist = {
       \ 'unite' : 1,
       \ 'text' : 1,
       \ 'vimwiki' : 1,
+      \ 'gitcommit' : 1,
       \}
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
