@@ -36,6 +36,8 @@ filetype indent on
 
 syntax enable
 
+colorscheme herald
+
 " Save all files and run make
 map <F5> :wall<CR>:make<CR>
 
