@@ -1,6 +1,6 @@
 set nocp
-set ts=4
-set sw=4
+set ts=2
+set sw=2
 set so=7
 set expandtab
 set backspace=eol,start,indent
@@ -13,7 +13,6 @@ set noswapfile
 set history=300
 set cino=:0,g0,l0
 set autoread
-" set textwidth=76
 set bg=dark
 set wildmode=longest,list
 
@@ -66,16 +65,8 @@ fun! <SID>StripTrailingWhitespace()
     call cursor(l,c)
 endfun
 
-" Force use 4 ws other than tab indent for python
-au FileType python setlocal et
-au FileType html setlocal textwidth=0
-
 " Support encoding detection for gbk and sjs
 set fencs=utf-8,ucs-bom,gbk,shift-jis
-
-au FileType html,jade,markdown setlocal ts=2 sw=2
-
-au FileType markdown setlocal textwidth=76
 
 au FileType javascript,python setlocal fdm=marker
 
