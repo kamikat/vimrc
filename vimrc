@@ -74,15 +74,12 @@ au FileType javascript map <F5> :JSHint<CR>
 au FileType less map <F5> :!lessc %<CR>
 
 " YouCompleteMe configuration
-let g:ycm_filetype_blacklist = {
-      \ 'tagbar' : 1,
-      \ 'qf' : 1,
-      \ 'notes' : 1,
-      \ 'markdown' : 1,
-      \ 'unite' : 1,
-      \ 'text' : 1,
-      \ 'vimwiki' : 1,
-      \ 'gitcommit' : 1,
+let g:ycm_filetype_whitelist = {
+      \ 'javascript' : 1,
+      \ 'python' : 1,
+      \ 'cpp' : 1,
+      \ 'java' : 1,
+      \ 'clojure' : 1,
       \}
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
