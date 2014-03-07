@@ -73,6 +73,3 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/vim-flavored-markdown"]
-	path = bundle/vim-flavored-markdown
-	url = https://github.com/jtratner/vim-flavored-markdown.git
