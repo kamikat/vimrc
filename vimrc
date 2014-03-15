@@ -68,7 +68,7 @@ endfun
 " Support encoding detection for gbk and sjs
 set fencs=utf-8,ucs-bom,gbk,shift-jis
 
-au FileType javascript,python setlocal fdm=marker
+set fdm=marker
 
 au FileType javascript map <F5> :JSHint<CR>
 au FileType less map <F5> :!lessc %<CR>
