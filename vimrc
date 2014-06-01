@@ -87,3 +87,5 @@ let g:ycm_filetype_whitelist = {
       \}
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 
+let g:tex_flavor='latex'
+
