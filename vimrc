@@ -28,6 +28,10 @@ if !has('gui_running')
     call add(g:pathogen_disabled, 'vim-css-color')
 endif
 
+if has('win32') || has('win64')
+    call add(g:pathogen_disabled, 'YouCompleteMe')
+endif
+
 call pathogen#infect()
 
 filetype plugin on
