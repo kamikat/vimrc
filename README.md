@@ -11,7 +11,7 @@ Apply following command for a fresh new installation of `.vim` files.
 
 ```shell
 cd $HOME
-git clone https://github.com/shinohane/vimrc.git .vim
+git clone https://github.com/kirisetsz/vimrc.git .vim
 cd .vim
 ```
 
@@ -23,7 +23,7 @@ this repository.
 ```shell
 cd $HOME/.vim
 git init
-git remote add origin https://github.com/shinohane/vimrc.git
+git remote add origin https://github.com/kirisetsz/vimrc.git
 git pull origin master
 ```
 
