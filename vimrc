@@ -16,11 +16,14 @@ set autoread
 set bg=dark
 set wildmode=longest,list
 
+" Never recognizes leading zero number as octal number
+set nrformats-=octal
+
 " Use pathogen plugin to load Plugins
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 " To disable a plugin, add it's bundle name to the following list
-let g:pathogen_disabled = []
+let g:pathogen_disabled = [ 'YouCompleteMe', 'syntastic' ]
 
 " for some reason the csscolor plugin is very slow when run on the terminal
 " but not in GVim, so disable it if no GUI is running
