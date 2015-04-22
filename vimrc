@@ -23,7 +23,7 @@ set nrformats-=octal
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 " To disable a plugin, add it's bundle name to the following list
-let g:pathogen_disabled = [ 'YouCompleteMe', 'syntastic' ]
+let g:pathogen_disabled = [ 'YouCompleteMe' ]
 
 " for some reason the csscolor plugin is very slow when run on the terminal
 " but not in GVim, so disable it if no GUI is running
