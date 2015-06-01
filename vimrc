@@ -82,3 +82,6 @@ au FileType less map <F5> :!lessc %<CR>
 
 let g:tex_flavor='latex'
 
+" Turn off gitgutter by default
+let g:gitgutter_enabled = 0
+
