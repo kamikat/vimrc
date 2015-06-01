@@ -25,9 +25,6 @@
 [submodule "bundle/vim-css3-syntax"]
 	path = bundle/vim-css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax.git
-[submodule "bundle/kirikiri.vim"]
-	path = bundle/kirikiri.vim
-	url = https://github.com/tyru/kirikiri.vim
 [submodule "bundle/vim-syntax-tjs2"]
 	path = bundle/vim-syntax-tjs2
 	url = https://github.com/popkirby/vim-syntax-tjs2.git
