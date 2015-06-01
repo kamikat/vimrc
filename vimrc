@@ -80,15 +80,5 @@ set fdm=marker
 au FileType javascript map <F5> :JSHint<CR>
 au FileType less map <F5> :!lessc %<CR>
 
-" YouCompleteMe configuration
-" let g:ycm_filetype_whitelist = {
-"       \ 'javascript' : 1,
-"       \ 'python' : 1,
-"       \ 'cpp' : 1,
-"       \ 'java' : 1,
-"       \ 'clojure' : 1,
-"       \}
-" let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
-
 let g:tex_flavor='latex'
 
