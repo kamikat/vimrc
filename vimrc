@@ -13,7 +13,6 @@ set noswapfile
 set history=300
 set cino=:0,g0,l0
 set autoread
-set bg=dark
 set wildmode=longest,list
 
 " Never recognizes leading zero number as octal number
