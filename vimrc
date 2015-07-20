@@ -69,7 +69,7 @@ au FileType less map <F5> :!lessc %<CR>
 let g:tex_flavor='latex'
 
 " Turn off gitgutter by default
-let g:gitgutter_enabled = 0
+let g:gitgutter_enabled = 1
 
 " use eslint
 let g:syntastic_javascript_checkers = ['eslint']
