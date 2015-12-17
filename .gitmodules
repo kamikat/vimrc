@@ -97,3 +97,9 @@
 [submodule "bundle/dockerfile"]
 	path = bundle/dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim
+[submodule "bundle/vim-rdf"]
+	path = bundle/vim-rdf
+	url = https://github.com/niklasl/vim-rdf.git
+[submodule "bundle/pgsql.vim"]
+	path = bundle/pgsql.vim
+	url = https://github.com/exu/pgsql.vim
