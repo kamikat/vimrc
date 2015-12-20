@@ -103,3 +103,6 @@
 [submodule "bundle/pgsql.vim"]
 	path = bundle/pgsql.vim
 	url = https://github.com/exu/pgsql.vim
+[submodule "bundle/vim-sparql"]
+	path = bundle/vim-sparql
+	url = https://github.com/Omer/vim-sparql
