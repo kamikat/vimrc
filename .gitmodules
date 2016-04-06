@@ -106,3 +106,6 @@
 [submodule "bundle/vim-sparql"]
 	path = bundle/vim-sparql
 	url = https://github.com/Omer/vim-sparql
+[submodule "bundle/cmake.vim"]
+	path = bundle/cmake.vim
+	url = https://github.com/jalcine/cmake.vim
