@@ -109,3 +109,6 @@
 [submodule "bundle/cmake.vim"]
 	path = bundle/cmake.vim
 	url = https://github.com/jalcine/cmake.vim
+[submodule "bundle/groovyindent"]
+	path = bundle/groovyindent
+	url = https://github.com/vim-scripts/groovyindent-unix
