@@ -19,9 +19,6 @@
 [submodule "bundle/vim-css3-syntax"]
 	path = bundle/vim-css3-syntax
 	url = https://github.com/hail2u/vim-css3-syntax.git
-[submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
-	url = https://github.com/hallison/vim-markdown.git
 [submodule "bundle/snipmate.vim"]
 	path = bundle/snipmate.vim
 	url = https://github.com/msanders/snipmate.vim.git
