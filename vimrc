@@ -81,3 +81,6 @@ let g:syntastic_javascript_checkers = ['eslint']
 " YAML front matter for Markdown
 let g:vim_markdown_frontmatter = 1
 
+" Disable folding for Markdown
+let g:vim_markdown_folding_disabled = 1
+
