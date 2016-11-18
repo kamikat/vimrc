@@ -21,7 +21,7 @@
 	url = https://github.com/hail2u/vim-css3-syntax.git
 [submodule "bundle/snipmate.vim"]
 	path = bundle/snipmate.vim
-	url = https://github.com/msanders/snipmate.vim.git
+	url = https://github.com/garbas/vim-snipmate
 [submodule "bundle/cocoa.vim"]
 	path = bundle/cocoa.vim
 	url = https://github.com/fomichev/cocoa.vim.git
@@ -103,3 +103,12 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown
+[submodule "bundle/tlib_vim"]
+	path = bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "bundle/vim-addon-mw-utils"]
+	path = bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
