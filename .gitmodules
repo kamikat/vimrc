@@ -109,3 +109,6 @@
 [submodule "bundle/groovyindent"]
 	path = bundle/groovyindent
 	url = https://github.com/vim-scripts/groovyindent-unix
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown

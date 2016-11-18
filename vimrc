@@ -75,6 +75,9 @@ let g:tex_flavor='latex'
 " Turn off gitgutter by default
 let g:gitgutter_enabled = 1
 
-" use eslint
+" Use eslint
 let g:syntastic_javascript_checkers = ['eslint']
+
+" YAML front matter for Markdown
+let g:vim_markdown_frontmatter = 1
 
