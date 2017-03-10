@@ -52,6 +52,10 @@ map <C-h> <C-w>h
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+" :w!!
+" write the file when you accidentally opened it without the right (root) privileges
+cmap w!! w !sudo tee % > /dev/null
+
 " Auto strip useless space when file is saved
 au BufWritePre * :call <SID>StripTrailingWhitespace()
 
