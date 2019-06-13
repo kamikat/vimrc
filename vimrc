@@ -18,6 +18,9 @@ set wildmode=longest,list
 " Never recognizes leading zero number as octal number
 set nrformats-=octal
 
+" Disable modeline feature for security (CVE-2019-12735)
+set nomodeline
+
 " Use pathogen plugin to load Plugins
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
