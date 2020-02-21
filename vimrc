@@ -37,8 +37,8 @@ syntax enable
 
 colorscheme heraldish
 
-" Save all files and run make
-map <F5> :wall<CR>:make<CR>
+" Force buffer redraw
+map <F5> :redr!<CR>
 
 " Make tags
 map <F6> :!ctags -R --fields=+iaS --extra=+q --append . /usr/include<CR>
@@ -85,9 +85,6 @@ augroup END
 set fencs=utf-8,ucs-bom,gbk,shift-jis
 
 set fdm=marker
-
-au FileType javascript map <F5> :JSHint<CR>
-au FileType less map <F5> :!lessc %<CR>
 
 let g:tex_flavor='latex'
 
