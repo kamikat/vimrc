@@ -100,6 +100,8 @@ let g:vim_markdown_frontmatter = 1
 " Disable folding for Markdown
 let g:vim_markdown_folding_disabled = 1
 
+let g:vim_markdown_fenced_languages = ['jsx=javascript']
+
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*

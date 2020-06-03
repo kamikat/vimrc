@@ -99,7 +99,7 @@
 	url = https://github.com/vim-scripts/groovyindent-unix
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
-	url = https://github.com/plasticboy/vim-markdown
+	url = https://github.com/kamikat/vim-markdown
 [submodule "bundle/tlib_vim"]
 	path = bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
