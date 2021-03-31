@@ -1,0 +1,14 @@
+highlight link typescriptEndColons Noise
+highlight link typescriptBraces Noise
+highlight link typescriptParens Noise
+highlight link typescriptLogicSymbols Operator
+
+highlight link typescriptMessage Special
+highlight link typescriptReserved Keyword
+highlight link typescriptFuncKeyword Special
+
+syntax clear typescriptExceptions
+syntax keyword typescriptExceptionKeyword try catch throw finally
+syntax keyword typescriptExceptionClasses Error EvalError RangeError ReferenceError SyntaxError TypeError URIError DOMException
+highlight link typescriptExceptionKeyword Exception
+highlight link typescriptExceptionClasses Special
