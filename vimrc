@@ -26,8 +26,6 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 let g:pathogen_disabled = []
 
-call add(g:pathogen_disabled, 'vim-autocomplpop')
-
 call pathogen#infect()
 
 filetype plugin on
