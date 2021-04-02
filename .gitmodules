@@ -31,15 +31,6 @@
 [submodule "bundle/pegjs-vim"]
 	path = bundle/pegjs-vim
 	url = https://github.com/alunny/pegjs-vim.git
-[submodule "bundle/vim-clojure-static"]
-	path = bundle/vim-clojure-static
-	url = https://github.com/guns/vim-clojure-static.git
-[submodule "bundle/vim-classpath"]
-	path = bundle/vim-classpath
-	url = https://github.com/tpope/vim-classpath.git
-[submodule "bundle/vim-fireplace"]
-	path = bundle/vim-fireplace
-	url = https://github.com/tpope/vim-fireplace.git
 [submodule "bundle/vim-visual-increment"]
 	path = bundle/vim-visual-increment
 	url = https://github.com/triglav/vim-visual-increment.git
