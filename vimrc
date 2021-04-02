@@ -86,6 +86,9 @@ set fdm=marker
 
 let g:tex_flavor='latex'
 
+" Enable context-based completion from SuperTab
+let g:SuperTabDefaultCompletionType = 'context'
+
 " Turn off gitgutter by default
 let g:gitgutter_enabled = 1
 
