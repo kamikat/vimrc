@@ -117,5 +117,7 @@ let g:syntastic_cpp_compiler = 'gcc'
 let g:syntastic_cpp_compiler_options = '-std=c++14'
 
 let g:tsuquyomi_disable_quickfix = 1
-let g:syntastic_typescript_checkers = ['tsuquyomi']
-let g:syntastic_typescriptreact_checkers = ['tsuquyomi']
+let g:syntastic_typescript_checkers = ['eslint', 'tsuquyomi']
+let g:syntastic_typescriptreact_checkers = ['eslint', 'tsuquyomi']
+
+"let g:syntastic_debug=3
