@@ -92,9 +92,6 @@ let g:SuperTabDefaultCompletionType = 'context'
 " Turn off gitgutter by default
 let g:gitgutter_enabled = 1
 
-" Use eslint
-let g:syntastic_javascript_checkers = ['eslint']
-
 " YAML front matter for Markdown
 let g:vim_markdown_frontmatter = 1
 
@@ -102,22 +99,3 @@ let g:vim_markdown_frontmatter = 1
 let g:vim_markdown_folding_disabled = 1
 
 let g:vim_markdown_fenced_languages = ['jsx=javascript']
-
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-let g:syntastic_cpp_checkers = ['gcc']
-let g:syntastic_cpp_compiler = 'gcc'
-let g:syntastic_cpp_compiler_options = '-std=c++14'
-
-let g:tsuquyomi_disable_quickfix = 1
-let g:syntastic_typescript_checkers = ['eslint', 'tsuquyomi']
-let g:syntastic_typescriptreact_checkers = ['eslint', 'tsuquyomi']
-
-"let g:syntastic_debug=3
